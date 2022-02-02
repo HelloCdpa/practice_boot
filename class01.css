@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+section{
+    height: 100vh;
+    background: url(/img/다운로드\ \(1\).jfif);
+}
+
+section:before{
+    content: '';
+    /* 어느 방향으로 그라데이션 가장 진한 색*/
+    background: linear-gradient(to right, black, transparent);
+    position: absolute;
+    left:0;
+    height: 100%;
+    width: 50%;
+}
+
+h1{
+    color: white;
+    font-size: 6em;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-family: sans-serif;
+    
+}
