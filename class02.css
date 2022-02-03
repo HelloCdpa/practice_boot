@@ -1,0 +1,51 @@
+/* selector {
+    property : value;
+} */
+
+/* universal */
+* {
+    color : green;
+}
+/* tag */
+li{
+    color : blue;
+}
+/* id */
+#special {
+    color: pink;
+}
+/* class */
+.red {
+    background: yellow;
+}
+/* state */
+button:hover {
+    color: red;
+    background: beige;
+}
+/* attribute */
+a[href] {
+    color: purple;
+}
+
+a[href="naver.com"] {
+    color: purple;
+}
+/* 속성값 ^ 시작 $ 끝 */
+a[href^="naver"] {
+    color: rgb(196, 101, 196);
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px dashed red;
+    /* 
+    border-width: 2px;
+    border-style: solid;
+    border-color: pink; 
+    */
+    background: yellow;
+}
